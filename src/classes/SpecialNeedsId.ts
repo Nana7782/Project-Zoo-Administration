@@ -1,7 +1,7 @@
 enum SpecialNeedsId {
-  Herbivore,
-  Omnivore,
-  Carnivore,
+  Plants,
+  Fish,
+  Meat,
 }
 
 export default SpecialNeedsId;

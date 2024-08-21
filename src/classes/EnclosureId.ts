@@ -4,7 +4,7 @@ enum EnclosureId {
   AquaticHabitat,
   ReptileHouse,
   ForestHabitat,
-  ArcitHabitat,
+  ArcticHabitat,
 }
 
 export default EnclosureId;

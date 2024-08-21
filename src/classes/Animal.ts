@@ -17,13 +17,15 @@ class Animal implements IAnimal {
     yearOfBirth: number,
     continents: Continent,
     specialNeeds: SpecialNeedsId,
-    enclorsureId: EnclosureId
+    enclosureId: EnclosureId
   ) {
     this._emoji = emoji;
     this._name = name;
     this._yearOfBirth = yearOfBirth;
     this._continents = continents;
     this._specialNeeds = specialNeeds;
-    this._enclosureId = enclorsureId;
+    this._enclosureId = enclosureId;
   }
 }
+
+export default Animal;

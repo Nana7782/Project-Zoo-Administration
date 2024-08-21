@@ -11,3 +11,4 @@ class Enclosure {
     this._builtInYear = builtInYear;
   }
 }
+export default Enclosure;
