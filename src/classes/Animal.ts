@@ -1,6 +1,6 @@
 import IAnimal from "../interfaces/IAnimal";
 import Continent from "./Continent";
-import EnclosureId from "./EnclosureId";
+import EnclosureId from "./EnclosureID";
 import SpecialNeedsId from "./SpecialNeedsId";
 
 class Animal implements IAnimal {
