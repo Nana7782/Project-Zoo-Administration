@@ -1,10 +1,10 @@
 interface IAnimal {
-  emoji: string;
-  name: string;
-  yearOfBirth: number;
-  continents: string[];
-  specialNeeds: string[];
-  enclosureId: Enclosure;
+  _emoji: string;
+  _name: string;
+  _yearOfBirth: number;
+  _continents: string[];
+  _specialNeeds: string[];
+  _enclosureId: Enclosure;
 }
 
 export default IAnimal;
