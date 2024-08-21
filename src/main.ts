@@ -17,3 +17,14 @@ const animalEnclosureSelect = document.getElementById(
 const submitAnimalButton = document.getElementById(
   "submit"
 ) as HTMLButtonElement;
+
+const allAnimalsButton = document.getElementById(
+  "show-all"
+) as HTMLButtonElement;
+
+const savannahEnclosure = document.getElementById("savannah") as HTMLDivElement;
+const jungleEnclosure = document.getElementById("jungle") as HTMLDivElement;
+const aquaEnclosure = document.getElementById("aqua") as HTMLDivElement;
+const reptileEnclosure = document.getElementById("reptile") as HTMLDivElement;
+const forestEnclosure = document.getElementById("forest") as HTMLDivElement;
+const arcticEnclosure = document.getElementById("arctic") as HTMLDivElement;
