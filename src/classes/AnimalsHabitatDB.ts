@@ -1,7 +1,7 @@
 import Animal from "./Animal";
 import Continent from "./Continent";
 import Enclosure from "./Enclosure";
-import EnclosureId from "./EnclosureId";
+import EnclosureId from "./EnclosureID";
 import SpecialNeedsId from "./SpecialNeedsId";
 
 const savannahHab = new Enclosure(
@@ -11,12 +11,20 @@ const savannahHab = new Enclosure(
 );
 console.log(savannahHab);
 
-const lion = new Animal(
-  "🦁",
-  "Löwe",
-  2010,
-  Continent.Africa,
-  SpecialNeedsId.Meat,
-  EnclosureId.SavannahHabitat
-);
-console.log(lion);
+class Lion extends Animal {
+  constructor(
+    name: string,
+    yearOfBirth: number,
+    continents: Continent,
+    specialNeeds: SpecialNeedsId
+  ) {
+    super(
+      "🦁",
+      name,
+      yearOfBirth,
+      continents,
+      specialNeeds,
+      EnclosureId.SavannahHabitat
+    );
+  }
+}
