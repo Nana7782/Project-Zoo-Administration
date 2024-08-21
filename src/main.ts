@@ -15,5 +15,5 @@ const animalEnclosureSelect = document.getElementById(
   "enclosure-select"
 ) as HTMLSelectElement;
 const submitAnimalButton = document.getElementById(
-  "submit-animal"
+  "submit"
 ) as HTMLButtonElement;

@@ -1,4 +1,4 @@
-import EnclosureId from "./EnclosureID";
+import EnclosureId from "./EnclosureId";
 
 class Enclosure {
   _id: EnclosureId;
