@@ -1,13 +1,39 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
+    <link rel="stylesheet" href="./src/style.css" />
+    <title>Zoo Administration</title>
   </head>
   <body>
-    <div id="app"></div>
+    <h1>Zoo Administration</h1>
+    <div>
+      <h2>Please add an animal</h2>
+      <form>
+        <select name="animal" id="animal-select"></select>
+        <input type="text" name="name" id="name-input" />
+        <input type="number" name="yaearOfBirth" id="year-input" />
+        <select name="constinent" id="continent-select"></select>
+        <select name="needs" id="needs-select"></select>
+        <select name="enclosure" id="enclosure-select"></select>
+        <button type="submit">Create Animal</button>
+        <button id="showAll">Show all animals</button>
+      </form>
+    </div>
+    <div class="habitat">
+      <div id="savannah"></div>
+      <div id="jungle"></div>
+      <div id="aqua"></div>
+      <div id="reptile"></div>
+      <div id="forest"></div>
+      <div id="arctic"></div>
+    </div>
     <script type="module" src="/src/main.ts"></script>
+    <script
+      type="module"
+      src="/Project-Zoo-Administration/src/classes/AnimalsHabitatDB.ts"
+    ></script>
   </body>
 </html>
